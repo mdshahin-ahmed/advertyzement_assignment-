@@ -4,13 +4,13 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 const Header = ({ loadData }) => {
   return (
     <div>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" className="shadow">
         <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand href="#home">Advertyzement</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link onClick={() => loadData()}>Home</Nav.Link>
+            <Nav className="m-auto">
+              <Nav.Link onClick={() => loadData()}>Get Users</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

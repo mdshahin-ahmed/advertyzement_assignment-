@@ -1,0 +1,8 @@
+.cardImageWrap img:hover {
+  transform: scale(1.2);
+  transition: all 2s;
+  cursor: pointer;
+}
+.cardImageWrap {
+  overflow: hidden;
+}
