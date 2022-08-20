@@ -1,6 +1,6 @@
 # Advertyzement
 
-This project link: https://magnificent-liger-375485.netlify.app/
+This project live site link: https://magnificent-liger-375485.netlify.app/
 
 ## About project
 
